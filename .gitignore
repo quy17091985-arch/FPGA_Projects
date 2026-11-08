@@ -1,0 +1,24 @@
+# Xilinx Vivado
+*.jou
+*.log
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Intel Quartus
+db/
+incremental_db/
+output_files/
+simulation/
+*.rpt
+*.sof
+*.pof
+
+# ModelSim / QuestaSim
+work/
+transcript
+*.wlf
