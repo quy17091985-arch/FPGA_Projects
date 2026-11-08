@@ -6,8 +6,12 @@
 *.cache/
 *.hw/
 *.ip_user_files/
-*.runs/
 *.sim/
+
+# Add file .bit
+**/*.runs/**
+!**/*.runs/**/
+!*.bit
 
 # Intel Quartus
 db/
